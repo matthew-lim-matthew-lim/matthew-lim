@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/matthew-lim-matthew-lim/matthew-lim/static/css/main.073c9b0a.css",
-    "main.js": "/matthew-lim-matthew-lim/matthew-lim/static/js/main.57a022e3.js",
-    "static/js/787.07bc85e0.chunk.js": "/matthew-lim-matthew-lim/matthew-lim/static/js/787.07bc85e0.chunk.js",
-    "static/media/logo.svg": "/matthew-lim-matthew-lim/matthew-lim/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/matthew-lim-matthew-lim/matthew-lim/index.html",
-    "main.073c9b0a.css.map": "/matthew-lim-matthew-lim/matthew-lim/static/css/main.073c9b0a.css.map",
-    "main.57a022e3.js.map": "/matthew-lim-matthew-lim/matthew-lim/static/js/main.57a022e3.js.map",
-    "787.07bc85e0.chunk.js.map": "/matthew-lim-matthew-lim/matthew-lim/static/js/787.07bc85e0.chunk.js.map"
+    "main.css": "/matthew-lim/static/css/main.073c9b0a.css",
+    "main.js": "/matthew-lim/static/js/main.58e1dec4.js",
+    "static/js/787.07bc85e0.chunk.js": "/matthew-lim/static/js/787.07bc85e0.chunk.js",
+    "static/media/logo.svg": "/matthew-lim/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/matthew-lim/index.html",
+    "main.073c9b0a.css.map": "/matthew-lim/static/css/main.073c9b0a.css.map",
+    "main.58e1dec4.js.map": "/matthew-lim/static/js/main.58e1dec4.js.map",
+    "787.07bc85e0.chunk.js.map": "/matthew-lim/static/js/787.07bc85e0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.57a022e3.js"
+    "static/js/main.58e1dec4.js"
   ]
 }
