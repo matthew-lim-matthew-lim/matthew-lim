@@ -23,6 +23,9 @@ import image6 from './images/image6.jpg';
 import image7 from './images/image7.jpg';
 import image8 from './images/image8.jpg';
 import image9 from './images/image9.jpg';
+import image10 from './images/image10.jpg';
+import image11 from './images/image11.jpg';
+import image12 from './images/image12.jpg';
 
 import {
   Card,
@@ -72,7 +75,7 @@ function App() {
   }); */
   new ScrollCarousel(".my-carousel")
 
-  const images = [image1, image2, image3, image4, image5, image6, image7, image8, image9];
+  const images = [image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12];
 
   return (
     <div className="App">
@@ -237,10 +240,11 @@ function App() {
         <div className='text-4xl text-[#B18FCF] p-4 font-bold'>
           Vision philosophy/background
         </div>
-        <div className='text-2xl'>
-          My perspective of a successful Technical Vice President lies in the challenges and experiences I have faced as both a leader and follower. 
+        <div className='text-2xl mt-3'>
+          My understanding of the essential qualities that a successful Technical Vice President should embody has been shaped by  
+          the challenges and experiences I have faced as both a leader and follower. 
         </div>
-        <div className='text-2xl mb-6'>
+        <div className='text-2xl mb-6 mt-4'>
           I'll explain some of my experiences, and the valuable things they have taught me.
         </div>
       <div className='flex flex-row p-6'>
@@ -337,11 +341,16 @@ function App() {
         </div>
     </div>
 
-    <div className='bg-[#FFFFFF] p-20' >
-        <div className='text-4xl text-[#978897] p-4 font-bold'>
-          Thanks for reading!
+    <div className='bg-[#FFFFFF] p-20 flex flex-col justify-center items-center'>
+        <div className="flex flex-row text-6xl">
+          <div className='animate-spin-slow'>⭐</div>
+          <div className='text-4xl text-[#978897] p-4 font-bold'>
+          Thanks for reading! 
+          </div>
+          <div className='animate-spin-slow'>⭐</div>
         </div>
-        <div className='text-xl p-2'>
+
+        <div className='text-xl p-2 hover:animate-bounce'>
           If you see me on campus dap me up :D
         </div>
     </div>

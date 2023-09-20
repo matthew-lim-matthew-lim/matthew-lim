@@ -8,7 +8,11 @@ module.exports = {
     "./src/App.scss"
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        'spin-slow': 'spin 2s linear infinite',
+      }
+    },
   },
   plugins: [],
 }
