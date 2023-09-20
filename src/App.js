@@ -9,6 +9,8 @@ import sorting from "./sorting.png"
 /* import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSquareCaretDown } from '@fortawesome/free-solid-svg-icons'; */
 
+import AudioPlayer from './AudioPlayer';
+
 import {
   Card,
   CardBody,
@@ -296,7 +298,7 @@ function App() {
           and to live their best lives.
         </div>
     </div>
-
+      <AudioPlayer />
     </div>
   );
 }
