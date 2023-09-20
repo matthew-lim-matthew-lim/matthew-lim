@@ -8,8 +8,21 @@ import pondering from "./pondering.jpg"
 import sorting from "./sorting.png"
 /* import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSquareCaretDown } from '@fortawesome/free-solid-svg-icons'; */
+import ScrollCarousel from 'scroll-carousel-react';
+
+import { TikTok } from "react-tiktok";
 
 import AudioPlayer from './AudioPlayer';
+
+import image1 from './images/image1.jpg';
+import image2 from './images/image2.jpg';
+import image3 from './images/image3.jpg';
+import image4 from './images/image4.jpg';
+import image5 from './images/image5.jpg';
+import image6 from './images/image6.jpg';
+import image7 from './images/image7.jpg';
+import image8 from './images/image8.jpg';
+import image9 from './images/image9.jpg';
 
 import {
   Card,
@@ -57,6 +70,9 @@ function App() {
           scrollElement.style.display = 'none';
       }
   }); */
+  new ScrollCarousel(".my-carousel")
+
+  const images = [image1, image2, image3, image4, image5, image6, image7, image8, image9];
 
   return (
     <div className="App">
@@ -99,13 +115,15 @@ function App() {
           </div>
         </div>
         <div className='p-5'>
-          <img src={csesocWholesome} alt="csesoc whoelsome" className='rounded-3xl'/>
+          <img src={csesocWholesome} alt="csesoc whoelsome" className='rounded-3xl hover:scale-105'/>
         </div>
       </div>
       <div>
+
         <div className='text-4xl text-[#B18FCF] p-4 font-semibold'>
           I hope to contribute to the work of CSESoc as Technical Vice President for 2024.
         </div>
+
         <div className='text-3xl text-[#2c2c34] p-10'>
           Serving in this role, I aim to streamline communication, enhance organizational efficiency, and ensure that CSESoc continues to be a vibrant and inclusive community for all members.
         </div>
@@ -119,17 +137,18 @@ function App() {
 
     <div className='bg-[#EAEAEC] p-20' >
     <div className='bg-white rounded-3xl mr-10 ml-10 mb-10 pb-3'>
-        <div className='text-4xl text-[#B18FCF] p-4 font-bold'>
+        <div className='text-4xl text-[#B18FCF] p-4 pt-6 font-bold'>
         Vision Statement
         </div>
-        <div className='text-4xl text-[#2C2C34] p-4 font-semibold'>
+        <div className='text-4xl text-[#2C2C34] p-4 font-semibold animate-pulse-slow'>
           To empower co-presidents, directors and subcom to fulfil their personal
           visions in order to contribute to the greater vision of CSESoc.
         </div>
     </div>
 
 
-      <div className='text-4xl text-[#978897] p-4 font-bold'>
+
+      <div className='text-4xl text-[#978897] p-4 pt-6 font-bold'>
         Action Plan
       </div>
       <div className='text-2xl text-[#494850] p-4'>
@@ -193,8 +212,24 @@ function App() {
 
       </div>
     </div>
+    
+    <ScrollCarousel
+        autoplay
+        autoplaySpeed={8}
+        speed={7}
+        onReady={() => console.log('I am ready')}
+      >
+      {images.map((imageSrc, index) => (
+        <img key={index} src={imageSrc} alt={`Image ${index + 1}`} style={{height:"180px"}} className='rounded-2xl'/>
 
-    <div className='bg-slate-100 p-20' >
+      ))}
+{/*         <div key={index} className='bg-blue-300/20 border-2 border-blue-300/70 rounded h-48 w-48'>
+          <img src={imageSrc} alt={`Image ${index + 1}`} className='h-4/5'/>
+        </div> */}
+
+      </ScrollCarousel>
+
+    <div className='p-20' >
     <div className='flex flex-row'>
 
     </div>
@@ -208,9 +243,9 @@ function App() {
         <div className='text-2xl mb-6'>
           I'll explain some of my experiences, and the valuable things they have taught me.
         </div>
-      <div className='flex flex-row'>
-        <div>
-          <div  className='text-xl p-2 mt-4 text-[#978897] font-semibold'>
+      <div className='flex flex-row p-6'>
+        <div className='pr-6'>
+          <div  className='text-xl p-2 mt-6 mb-2 text-[#978897] font-semibold'>
             COOPSoc Exec team
           </div>
 
@@ -220,7 +255,7 @@ function App() {
               that enable the efficient management of teams, agendas and record-keeping.
             </div>
             <div
-            class="inline-block w-0.5 self-stretch bg-slate-700 opacity-50">
+            class="inline-block w-0.5 self-stretch bg-slate-700 opacity-50 m-2">
             </div>
             <div  className='text-l p-2'>
               One impactful experience in this role was when I overstepped and was too authoritative in my leadership style 
@@ -232,7 +267,7 @@ function App() {
 
 
 
-          <div  className='text-xl mt-4 p-2 text-[#978897] font-semibold'>
+          <div  className='text-xl mt-6 mb-2 p-2 text-[#978897] font-semibold'>
             CSESoc Dev Content
           </div>
 
@@ -243,7 +278,7 @@ function App() {
               I needed to discern the values and interests of society members.
             </div>
             <div
-              class="inline-block w-0.5 self-stretch bg-slate-700 opacity-50">
+              class="inline-block w-0.5 self-stretch bg-slate-700 opacity-50 m-2">
             </div>
             <div  className='text-l p-2'>
               The most impactful experience in this role was discussing with my directors
@@ -254,7 +289,7 @@ function App() {
             </div>
           </div>
 
-          <div  className='text-xl p-2 mt-4 text-[#978897] font-semibold'>
+          <div  className='text-xl p-2 mt-6 mb-2 text-[#978897] font-semibold'>
             PISoc IT director
           </div>
           <div className='flex flex-row bg-[#EFEFFB] rounded-2xl p-3 hover:scale-105'>
@@ -263,7 +298,7 @@ function App() {
               faced in leading a team, and to experiment with processes to resolve this.
             </div>
             <div
-              class="inline-block w-0.5 self-stretch bg-slate-700 opacity-50">
+              class="inline-block w-0.5 self-stretch bg-slate-700 opacity-50 m-2">
             </div>
             <div  className='text-l p-2'>
               A challenge I faced in this role was communication and team-wide productivity.
@@ -274,8 +309,11 @@ function App() {
             </div>
           </div>
         </div>
-        <div className='basis-4/5'>
-          <img src={sorting} className='ml-10 mr-10 mt-10 rounded-2xl hover:scale-105' />
+        <div className='basis-4/5 ml-10'>
+          {/* <img src={sorting} className='ml-10 mr-10 mt-10 rounded-2xl hover:scale-105' /> */}
+
+          <TikTok url="https://www.tiktok.com/@csesoc/video/7244136668813462785?lang=en" className='ml-10 mr-10 mt-10 rounded-2xl hover:scale-105'/>
+
         </div>
       </div>
 
@@ -295,9 +333,19 @@ function App() {
         </div>
         <div className='text-xl p-2'>
           In terms of spiritual growth, I hope to be able to empower others to succeed in their own goals 
-          and to live their best lives.
+          and to live their best lives. I hope to make meaningful friendships, and to form valuable memories.
         </div>
     </div>
+
+    <div className='bg-[#FFFFFF] p-20' >
+        <div className='text-4xl text-[#978897] p-4 font-bold'>
+          Thanks for reading!
+        </div>
+        <div className='text-xl p-2'>
+          If you see me on campus dap me up :D
+        </div>
+    </div>
+
       <AudioPlayer />
     </div>
   );
