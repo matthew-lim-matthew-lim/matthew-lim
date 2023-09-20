@@ -273,7 +273,7 @@ function App() {
           </div>
         </div>
         <div className='basis-4/5'>
-          <img src={sorting} className='ml-10 mr-10 mt-10 rounded-2xl' />
+          <img src={sorting} className='ml-10 mr-10 mt-10 rounded-2xl hover:scale-105' />
         </div>
       </div>
 
@@ -290,6 +290,10 @@ function App() {
         <div className='text-xl p-2'>
           For personal growth, I want to understand macroscopically, how instiutions can shape 
           the lives and experiences of people.
+        </div>
+        <div className='text-xl p-2'>
+          In terms of spiritual growth, I hope to be able to empower others to succeed in their own goals 
+          and to live their best lives.
         </div>
     </div>
 
