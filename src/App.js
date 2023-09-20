@@ -79,8 +79,8 @@ function App() {
       <script src="script.js"></script> */}
 
       <header className="App-header" style={{zIndex: 3}}>
-        <div className='text-7xl text-black animate-pulse font-semibold'>
-          Vote <code className="text-[#B18FCF] animate-pulse-slow"> Matthew Lim </code> for Secretary 24`
+        <div className='text-6xl text-black animate-pulse font-semibold'>
+          Vote <code className="text-[#B18FCF] animate-pulse-slow"> Matthew Lim </code> for Technical Vice President 24`
         </div>
       </header>
 
@@ -92,19 +92,19 @@ function App() {
         <div>
           <div className='text-3xl text-[#2c2c34] p-6'>
             ... through CSESoc, I have met so many amazing people with incredible stories and talents.
-            It is a community I feel like I belong to, one where I've forged friendships that will last a lifetime.
+            It is a community I feel like I belong to, one where I've forged friendships that will last a lifetime 🙂.
           </div>
           <div className='text-3xl text-[#2c2c34] p-6'>
-            UNSW CSE would not be the same without CSESoc.
+            UNSW CSE would not be the same without CSESoc 🤗.
           </div>
         </div>
         <div className='p-5'>
-          <img src={csesocWholesome} alt="csesoc whoelsome" />
+          <img src={csesocWholesome} alt="csesoc whoelsome" className='rounded-3xl'/>
         </div>
       </div>
       <div>
         <div className='text-4xl text-[#B18FCF] p-4 font-semibold'>
-          I hope to contribute to the work of CSESoc as Secretary in 2024.
+          I hope to contribute to the work of CSESoc as Technical Vice President for 2024.
         </div>
         <div className='text-3xl text-[#2c2c34] p-10'>
           Serving in this role, I aim to streamline communication, enhance organizational efficiency, and ensure that CSESoc continues to be a vibrant and inclusive community for all members.
@@ -203,7 +203,7 @@ function App() {
           Vision philosophy/background
         </div>
         <div className='text-2xl'>
-          My perspective of a successful secretary lies in the challenges and experiences I have faced as both a leader and follower. 
+          My perspective of a successful Technical Vice President lies in the challenges and experiences I have faced as both a leader and follower. 
         </div>
         <div className='text-2xl mb-6'>
           I'll explain some of my experiences, and the valuable things they have taught me.
