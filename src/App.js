@@ -481,7 +481,7 @@ function App() {
           <div className='animate-spin-slow'>⭐</div>
         </div>
 
-        <div className='text-xl p-2 hover:animate-bounce'>
+        <div className='text-xl p-2 pt-4 hover:animate-bounce'>
           If you see me on campus dap me up :D
         </div>
         <img src={mePic} className='h-96 rounded-3xl m-3'/>
