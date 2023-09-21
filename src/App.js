@@ -183,7 +183,7 @@ function App() {
           <img src={pondering} className='rounded-3xl hover:scale-105'/>
         </div>
         <div className='md:grid md:grid-cols-2 md:gap-4 flex flex-col justify-center '>
-          <Card className="mt-6 w-96 rounded-3xl hover:scale-105">
+          <Card className="mt-6 md:w-96 rounded-3xl hover:scale-105">
           <CardBody>
             <Typography variant="h5" color="blue-gray" className="mb-2">
               Support and Resources
@@ -196,7 +196,7 @@ function App() {
           </CardBody>
         </Card>
 
-        <Card className="mt-6 w-96 rounded-3xl hover:scale-105">
+        <Card className="mt-6 md:w-96 rounded-3xl hover:scale-105">
           <CardBody>
             <Typography variant="h5" color="blue-gray" className="mb-2">
               Collaboration
@@ -209,7 +209,7 @@ function App() {
           </CardBody>
         </Card>
 
-        <Card className="mt-6 w-96 rounded-3xl hover:scale-105">
+        <Card className="mt-6 md:w-96 rounded-3xl hover:scale-105">
           <CardBody>
             <Typography variant="h5" color="blue-gray" className="mb-2">
               Feedback Mechanisms
@@ -221,7 +221,7 @@ function App() {
           </CardBody>
         </Card>
 
-        <Card className="mt-6 w-96 rounded-3xl hover:scale-105">
+        <Card className="mt-6 md:w-96 rounded-3xl hover:scale-105">
           <CardBody>
             <Typography variant="h5" color="blue-gray" className="mb-2">
               Measurable Goals
@@ -350,7 +350,7 @@ function App() {
           Aspects of CSESoc that I value and hope to preserve
         </div>
         <div className="md:grid md:grid-cols-3 flex flex-col justify-center">
-          <Card className="mt-6 w-96 rounded-3xl hover:scale-105">
+          <Card className="mt-6 md:w-96 rounded-3xl hover:scale-105">
             <CardBody>
               <Typography variant="h5" color="blue-gray" className="mb-2">
                 Community Engagement
@@ -365,7 +365,7 @@ function App() {
               </Typography>
             </CardBody>
           </Card>
-          <Card className="mt-6 w-96 rounded-3xl hover:scale-105">
+          <Card className="mt-6 md:w-96 rounded-3xl hover:scale-105">
             <CardBody>
               <Typography variant="h5" color="blue-gray" className="mb-2">
                 Educational Opportunities
@@ -380,7 +380,7 @@ function App() {
               </Typography>
             </CardBody>
           </Card>
-          <Card className="mt-6 w-96 rounded-3xl hover:scale-105">
+          <Card className="mt-6 md:w-96 rounded-3xl hover:scale-105">
             <CardBody>
               <Typography variant="h5" color="blue-gray" className="mb-2">
                 Leadership and Mentorship
@@ -408,7 +408,7 @@ function App() {
           Aspects of CSESoc that I seek to improve upon
         </div>
         <div className="md:grid md:grid-cols-3 flex flex-col justify-center">
-          <Card className="mt-6 w-96 rounded-3xl hover:scale-105">
+          <Card className="mt-6 md:w-96 rounded-3xl hover:scale-105">
             <CardBody>
               <Typography variant="h5" color="blue-gray" className="mb-2">
                 Community Connection Across The Broader Society
@@ -428,7 +428,7 @@ function App() {
               </Typography>
             </CardBody>
           </Card>
-          <Card className="mt-6 w-96 rounded-3xl hover:scale-105">
+          <Card className="mt-6 md:w-96 rounded-3xl hover:scale-105">
             <CardBody>
               <Typography variant="h5" color="blue-gray" className="mb-2">
                 Social Accessibility
@@ -448,7 +448,7 @@ function App() {
               </Typography>
             </CardBody>
           </Card>
-          <Card className="mt-6 w-96 rounded-3xl hover:scale-105">
+          <Card className="mt-6 md:w-96 rounded-3xl hover:scale-105">
             <CardBody>
               <Typography variant="h5" color="blue-gray" className="mb-2">
                 Bridging The Gap Into Technical Projects
@@ -492,11 +492,11 @@ function App() {
 
     <div className='bg-[#FFFFFF] p-20 flex flex-col justify-center items-center'>
         <div className="flex flex-row text-6xl">
-          <div className='animate-spin-slow'>⭐</div>
+          <div className='md:animate-spin-slow'>⭐</div>
           <div className='text-4xl text-[#B18FCF] p-4 font-bold'>
           Thanks for reading! 
           </div>
-          <div className='animate-spin-slow'>⭐</div>
+          <div className='md:animate-spin-slow'>⭐</div>
         </div>
 
         <div className='text-xl p-2 pt-4 hover:animate-bounce'>
@@ -504,7 +504,7 @@ function App() {
         </div>
         <img src={mePic} className='h-96 rounded-3xl m-3'/>
     </div>
-      <img onClick={start} style={{zIndex:3, "position":"absolute", top:20, right:20}} className='w-8 animate-bounce-slow' src={humans} />
+      <img onClick={start} style={{zIndex:3, "position":"absolute", top:20, right:20}} className='w-9 border-2 border-black p-1 rounded-md' src={humans} />
       {/* <button onClick={start} style={{zIndex:3, "position":"absolute", top:10, right:10}}>Play</button> */}
     </div>
   );
