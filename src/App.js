@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.scss';
-import React from 'react';
+import React, { useState, useRef } from 'react';
+import ReactAudioPlayer from 'react-audio-player';
 import ReactDOM from 'react-dom'
 import csesocWholesome from './csesocTeam.jpg'
 import me from "./me.glb"
@@ -13,9 +14,11 @@ import mePic from "./mePic.jpg"
 import { faSquareCaretDown } from '@fortawesome/free-solid-svg-icons'; */
 import ScrollCarousel from 'scroll-carousel-react';
 
-import { TikTok } from "react-tiktok";
+import humans from './humans.png';
 
-import AudioPlayer from './AudioPlayer';
+import aphexTwin from './AphexTwinXtal.mp3';
+
+import { TikTok } from "react-tiktok";
 
 import image1 from './images/image1.jpg';
 import image2 from './images/image6.jpg';
@@ -77,6 +80,22 @@ function App() {
           scrollElement.style.display = 'none';
       }
   }); */
+
+  let audio = new Audio(aphexTwin);
+
+  let audioPlaying = false;
+
+  const start = () => {
+    audio.loop = true; // Set the audio to loop
+    if (audioPlaying === false) {
+      audio.play();
+      audioPlaying = true;
+    } else {
+      audio.pause();
+      audioPlaying = false;
+    }
+  };
+
   new ScrollCarousel(".my-carousel")
 
   const images = [image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12, image13];
@@ -485,8 +504,8 @@ function App() {
         </div>
         <img src={mePic} className='h-96 rounded-3xl m-3'/>
     </div>
-
-      <AudioPlayer />
+      <img onClick={start} style={{zIndex:3, "position":"absolute", top:20, right:20}} className='w-8 animate-bounce-slow' src={humans} />
+      {/* <button onClick={start} style={{zIndex:3, "position":"absolute", top:10, right:10}}>Play</button> */}
     </div>
   );
 }
