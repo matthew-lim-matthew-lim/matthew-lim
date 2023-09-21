@@ -162,15 +162,15 @@ function App() {
       <br></br>
 
     <div className='bg-[#EAEAEC] p-10 md:p-20' >
-    <div className='bg-white rounded-3xl mr-5 ml-5 mb-5 md:mr-10 md:ml-10 md:mb-10 pb-3'>
-        <div className='text-2xl md:text-4xl text-[#B18FCF] p-4 pt-6 font-bold'>
-        Vision Statement
-        </div>
-        <div className='text-lg md:text-4xl text-[#2C2C34] p-4 font-semibold animate-pulse-slow'>
-          To empower co-presidents, directors and subcom to fulfil their personal
-          visions in order to contribute to the greater vision of CSESoc.
-        </div>
-    </div>
+      <div className='bg-white rounded-3xl mr-5 ml-5 mb-5 md:mr-10 md:ml-10 md:mb-10 pb-3'>
+          <div className='text-2xl md:text-4xl text-[#B18FCF] p-4 pt-6 font-bold'>
+            Vision Statement
+          </div>
+          <div className='text-lg md:text-4xl text-[#2C2C34] p-4 font-semibold animate-pulse-slow'>
+            To empower co-presidents, directors and subcom to fulfil their personal
+            visions in order to contribute to the greater vision of CSESoc.
+          </div>
+      </div>
 
 
 
@@ -266,13 +266,13 @@ function App() {
         <div className='text-xl md:text-2xl mb-6 mt-4'>
           I'll explain some of my experiences, and the valuable things they have taught me.
         </div>
-      <div className='flex md:flex-row flex-col p-2 md:p-6 justify-center items-center'>
+      <div className='flex md:flex-row flex-col md:p-6 justify-center items-center'>
         <div className='md:pr-6'>
           <div  className='text-xl p-2 mt-6 mb-2 text-[#978897] font-semibold'>
             COOPSoc Exec team
           </div>
 
-          <div className='flex flex-col md:flex-row bg-[#EFEFFB] rounded-2xl p-3 hover:scale-105'>
+          <div className='flex flex-col md:flex-row bg-[#EFEFFB] rounded-2xl p-1 md:p-3 hover:scale-105'>
             <div  className='text-xl p-2'>
               Working in the COOPSoc exec team enabled me to see firsthand the systems 
               that enable the efficient management of teams, agendas and record-keeping.
@@ -294,7 +294,7 @@ function App() {
             CSESoc Dev Content
           </div>
 
-          <div className='flex flex-col md:flex-row bg-[#EFEFFB] rounded-2xl p-3 hover:scale-105'>
+          <div className='flex flex-col md:flex-row bg-[#EFEFFB] rounded-2xl p-1 md:p-3 hover:scale-105'>
             <div  className='text-xl p-2'>
               Creating content for CSESoc allowed me to refine my personal values as a member 
               of a university society. This is because, in order to create engaging content, 
@@ -315,7 +315,7 @@ function App() {
           <div  className='text-xl p-2 mt-6 mb-2 text-[#978897] font-semibold'>
             PISoc IT director
           </div>
-          <div className='flex flex-col md:flex-row bg-[#EFEFFB] rounded-2xl p-3 hover:scale-105'>
+          <div className='flex flex-col md:flex-row bg-[#EFEFFB] rounded-2xl p-1 md:p-3 hover:scale-105'>
             <div  className='text-xl p-2'>
               Managing a team enabled me to experience firsthand the administrative difficulties 
               faced in leading a team, and to experiment with processes to resolve this.
