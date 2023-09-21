@@ -349,52 +349,54 @@ function App() {
         <div className='text-4xl text-[#B18FCF] p-2 md:p-4 font-bold'>
           Aspects of CSESoc that I value and hope to preserve
         </div>
-        <div className="md:grid md:grid-cols-3 flex flex-col justify-center">
-          <Card className="mt-6 md:w-96 rounded-3xl hover:scale-105">
-            <CardBody>
-              <Typography variant="h5" color="blue-gray" className="mb-2">
-                Community Engagement
-              </Typography>
-              <Typography className='text-lg md:text-xl p-1'>
-                CSESoc has an strong sense of community and camaraderie; a result of the multitude of 
-                mediums by which one can engage with the society.
-              </Typography>
-              <Typography className='text-lg md:text-xl p-1'>
-                Whether it be through the CSESoc BBQ or through the CSESoc discord server, members of 
-                CSESoc are presented an immense variety of social and support networks.
-              </Typography>
-            </CardBody>
-          </Card>
-          <Card className="mt-6 md:w-96 rounded-3xl hover:scale-105">
-            <CardBody>
-              <Typography variant="h5" color="blue-gray" className="mb-2">
-                Educational Opportunities
-              </Typography>
-              <Typography className='text-lg md:text-xl p-1'>
-                CSESoc provides opportunities for members of any level to learn and improve their 
-                understanding of technologies.
-              </Typography>
-              <Typography className='text-lg md:text-xl p-1'>
-                Through initiatives like the Open Dev Workshop and teams like the EDU team, CSESoc
-                makes learning incredibly accessible.
-              </Typography>
-            </CardBody>
-          </Card>
-          <Card className="mt-6 md:w-96 rounded-3xl hover:scale-105">
-            <CardBody>
-              <Typography variant="h5" color="blue-gray" className="mb-2">
-                Leadership and Mentorship
-              </Typography>
-              <Typography className='text-lg md:text-xl p-1'>
-                CSESoc values passing knowledge onto others, empowering the 
-                community to thrive as a whole.
-              </Typography>
-              <Typography className='text-lg md:text-xl p-1'>
-                Programs like the CSESoc Mentoring Groups enable new students to be guided by 
-                older students, who develop skills in leadership by assuming this role.
-              </Typography>
-            </CardBody>
-          </Card>
+        <div className='flex flex-row justify-center'>
+          <div className="md:grid md:grid-cols-3 flex flex-col justify-center">
+            <Card className="mt-6 md:w-96 rounded-3xl hover:scale-105">
+              <CardBody>
+                <Typography variant="h5" color="blue-gray" className="mb-2">
+                  Community Engagement
+                </Typography>
+                <Typography className='text-lg md:text-xl p-1'>
+                  CSESoc has an strong sense of community and camaraderie; a result of the multitude of 
+                  mediums by which one can engage with the society.
+                </Typography>
+                <Typography className='text-lg md:text-xl p-1'>
+                  Whether it be through the CSESoc BBQ or through the CSESoc discord server, members of 
+                  CSESoc are presented an immense variety of social and support networks.
+                </Typography>
+              </CardBody>
+            </Card>
+            <Card className="mt-6 md:w-96 rounded-3xl hover:scale-105">
+              <CardBody>
+                <Typography variant="h5" color="blue-gray" className="mb-2">
+                  Educational Opportunities
+                </Typography>
+                <Typography className='text-lg md:text-xl p-1'>
+                  CSESoc provides opportunities for members of any level to learn and improve their 
+                  understanding of technologies.
+                </Typography>
+                <Typography className='text-lg md:text-xl p-1'>
+                  Through initiatives like the Open Dev Workshop and teams like the EDU team, CSESoc
+                  makes learning incredibly accessible.
+                </Typography>
+              </CardBody>
+            </Card>
+            <Card className="mt-6 md:w-96 rounded-3xl hover:scale-105">
+              <CardBody>
+                <Typography variant="h5" color="blue-gray" className="mb-2">
+                  Leadership and Mentorship
+                </Typography>
+                <Typography className='text-lg md:text-xl p-1'>
+                  CSESoc values passing knowledge onto others, empowering the 
+                  community to thrive as a whole.
+                </Typography>
+                <Typography className='text-lg md:text-xl p-1'>
+                  Programs like the CSESoc Mentoring Groups enable new students to be guided by 
+                  older students, who develop skills in leadership by assuming this role.
+                </Typography>
+              </CardBody>
+            </Card>
+          </div>
         </div>
 
     </div>
@@ -407,68 +409,70 @@ function App() {
         <div className='text-4xl text-[#B18FCF] p-4 font-bold'>
           Aspects of CSESoc that I seek to improve upon
         </div>
-        <div className="md:grid md:grid-cols-3 flex flex-col justify-center">
-          <Card className="mt-6 md:w-96 rounded-3xl hover:scale-105">
-            <CardBody>
-              <Typography variant="h5" color="blue-gray" className="mb-2">
-                Community Connection Across The Broader Society
-              </Typography>
-              <Typography className='text-lg md:text-xl p-1'>
-                CSESoc is so large that it can be difficult to get to know others in other 
-                portfolios, or even the executive team. This can make it difficult to feel 
-                truly 'at home' within the society.
-              </Typography>
-              <Typography className='text-lg md:text-xl p-1'>
-                Initiatives such as a Portfolio Showcase would bring the society together, 
-                enabling members within the society to connect and for their work to be appreciated.
-              </Typography>
-              <Typography className='text-lg md:text-xl p-1'>
-                Social media appearances and showcases would bring portfolios or executives 
-                into the spotlight, enabling improved knowledge of the other members in CSESoc.
-              </Typography>
-            </CardBody>
-          </Card>
-          <Card className="mt-6 md:w-96 rounded-3xl hover:scale-105">
-            <CardBody>
-              <Typography variant="h5" color="blue-gray" className="mb-2">
-                Social Accessibility
-              </Typography>
-              <Typography className='text-lg md:text-xl p-1'>
-                The large and active nature of CSESoc can mean that regular attendees of  
-                events can form cliques that exclude or alienate others.
-              </Typography>
-              <Typography className='text-lg md:text-xl p-1'>
-                We can foster a welcoming environment by encouraging and recognising 
-                leaders and members who make an effort to greet new attendees and introduce them 
-                to others, ensuring they feel included.
-              </Typography>
-              <Typography className='text-lg md:text-xl p-1'>
-                Raising awareness and conciousness of this can enable CSESoc members to be 
-                wary of when they might be unintentionally excluding others.
-              </Typography>
-            </CardBody>
-          </Card>
-          <Card className="mt-6 md:w-96 rounded-3xl hover:scale-105">
-            <CardBody>
-              <Typography variant="h5" color="blue-gray" className="mb-2">
-                Bridging The Gap Into Technical Projects
-              </Typography>
-              <Typography className='text-lg md:text-xl p-1'>
-                The existance of issues like imposter syndrome and code elitism are inherent 
-                to our discipline, however as Technical Vice President I hope to minimise 
-                these phenomena.
-              </Typography>
-              <Typography className='text-lg md:text-xl p-1'>
-                A more technically oriented version of the mentoring program could connect 
-                people of different skill levels together, enabling them to better 
-                visualise their progress through mutual growth.
-              </Typography>
-              <Typography className='text-lg md:text-xl p-1'>
-                We need to increase awareness of these issues to reduce those 
-                subconciously contributing to the issue.
-              </Typography>
-            </CardBody>
-          </Card>
+        <div className='flex flex-row justify-center'>
+          <div className="md:grid md:grid-cols-3 flex flex-col justify-center">
+            <Card className="mt-6 md:w-96 rounded-3xl hover:scale-105">
+              <CardBody>
+                <Typography variant="h5" color="blue-gray" className="mb-2">
+                  Community Connection Across The Broader Society
+                </Typography>
+                <Typography className='text-lg md:text-xl p-1'>
+                  CSESoc is so large that it can be difficult to get to know others in other 
+                  portfolios, or even the executive team. This can make it difficult to feel 
+                  truly 'at home' within the society.
+                </Typography>
+                <Typography className='text-lg md:text-xl p-1'>
+                  Initiatives such as a Portfolio Showcase would bring the society together, 
+                  enabling members within the society to connect and for their work to be appreciated.
+                </Typography>
+                <Typography className='text-lg md:text-xl p-1'>
+                  Social media appearances and showcases would bring portfolios or executives 
+                  into the spotlight, enabling improved knowledge of the other members in CSESoc.
+                </Typography>
+              </CardBody>
+            </Card>
+            <Card className="mt-6 md:w-96 rounded-3xl hover:scale-105">
+              <CardBody>
+                <Typography variant="h5" color="blue-gray" className="mb-2">
+                  Social Accessibility
+                </Typography>
+                <Typography className='text-lg md:text-xl p-1'>
+                  The large and active nature of CSESoc can mean that regular attendees of  
+                  events can form cliques that exclude or alienate others.
+                </Typography>
+                <Typography className='text-lg md:text-xl p-1'>
+                  We can foster a welcoming environment by encouraging and recognising 
+                  leaders and members who make an effort to greet new attendees and introduce them 
+                  to others, ensuring they feel included.
+                </Typography>
+                <Typography className='text-lg md:text-xl p-1'>
+                  Raising awareness and conciousness of this can enable CSESoc members to be 
+                  wary of when they might be unintentionally excluding others.
+                </Typography>
+              </CardBody>
+            </Card>
+            <Card className="mt-6 md:w-96 rounded-3xl hover:scale-105">
+              <CardBody>
+                <Typography variant="h5" color="blue-gray" className="mb-2">
+                  Bridging The Gap Into Technical Projects
+                </Typography>
+                <Typography className='text-lg md:text-xl p-1'>
+                  The existance of issues like imposter syndrome and code elitism are inherent 
+                  to our discipline, however as Technical Vice President I hope to minimise 
+                  these phenomena.
+                </Typography>
+                <Typography className='text-lg md:text-xl p-1'>
+                  A more technically oriented version of the mentoring program could connect 
+                  people of different skill levels together, enabling them to better 
+                  visualise their progress through mutual growth.
+                </Typography>
+                <Typography className='text-lg md:text-xl p-1'>
+                  We need to increase awareness of these issues to reduce those 
+                  subconciously contributing to the issue.
+                </Typography>
+              </CardBody>
+            </Card>
+          </div>
         </div>
     </div>
 
