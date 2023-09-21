@@ -26,13 +26,15 @@ import image3 from './images/image3.jpg';
 import image4 from './images/image4.jpg';
 import image5 from './images/image5.jpg';
 import image6 from './images/image13.png';
-import image7 from './images/image7.jpg';
 import image8 from './images/image8.jpg';
 import image9 from './images/image9.jpg';
 import image10 from './images/image10.jpg';
 import image11 from './images/image11.jpg';
 import image12 from './images/image12.jpg';
 import image13 from './images/image2.jpg';
+import image14 from './images/image14.jpg';
+import image16 from './images/image16.jpg';
+import image17 from './images/image17.jpg';
 
 import {
   Card,
@@ -98,7 +100,7 @@ function App() {
 
   new ScrollCarousel(".my-carousel")
 
-  const images = [image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11, image12, image13];
+  const images = [image1, image2, image3, image4, image5, image6, image8, image9, image10, image11, image12, image13, image14, image16, image17];
 
   return (
     <div className="App">
@@ -492,6 +494,15 @@ function App() {
           In terms of spiritual growth, I hope to be able to empower others to succeed in their own goals 
           and to live their best lives. I hope to make meaningful friendships, and to form valuable memories.
         </div>
+        <div className='text-lg md:text-xl p-2 font-bold'>
+          My 1st preference is Vice President Technology as I want to refine my leadership skills in a technical 
+          context, and my 2nd preference of Secretary was selected as it would act as a means for me to 
+          rapidly develop my administrative skills.
+        </div>
+        <div className='text-lg md:text-xl p-2 font-bold'>
+          Both of these roles are immensely valuable to me, and I would greatly appreciate any votes that contribute 
+          to this opportunity for me to realise my vision.
+        </div>
     </div>
 
     <div className='bg-[#FFFFFF] p-20 flex flex-col justify-center items-center'>
@@ -504,11 +515,11 @@ function App() {
         </div>
 
         <div className='text-lg md:text-xl p-2 pt-4 hover:animate-bounce'>
-          If you see me on campus dap me up :D
+          If you see me on campus say hi :)
         </div>
-        <img src={mePic} className='h-72 md:h-96 rounded-3xl m-3'/>
+        <img src={mePic} className='h-72 md:h-96 rounded-3xl m-3 hover:scale-105'/>
     </div>
-      <img onClick={start} style={{zIndex:3, "position":"absolute", top:20, right:20}} className='w-9 border-2 border-black p-1 rounded-md' src={humans} />
+      <img onClick={start} style={{zIndex:3, "position":"absolute", top:20, right:20}} className='w-9 md:w-12 border-2 border-black p-1 rounded-md hover:scale-105 animate-pulse' src={humans} />
       {/* <button onClick={start} style={{zIndex:3, "position":"absolute", top:10, right:10}}>Play</button> */}
     </div>
   );
