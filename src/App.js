@@ -102,7 +102,7 @@ function App() {
       <script src="script.js"></script> */}
 
       <header className="App-header" style={{zIndex: 3}}>
-        <div className='text-6xl text-black animate-pulse font-semibold'>
+        <div className='text-6xl text-black animate-pulse font-semibold ml-4 mr-2'>
           Vote <code className="text-[#B18FCF] animate-pulse-slow"> Matthew Lim </code> for Technical Vice President 24`
         </div>
       </header>
@@ -111,7 +111,7 @@ function App() {
     <div className='text-3xl text-[#B18FCF] p-4 font-bold'>
             CSESoc has massively enriched my university experience...
           </div>
-      <div className='flex flex-row'>
+      <div className='flex lg:flex-row flex-col'>
         <div>
           <div className='text-3xl text-[#2c2c34] p-6'>
             ... through CSESoc, I have met so many amazing people with incredible stories and talents.
@@ -147,7 +147,7 @@ function App() {
         <div className='text-4xl text-[#B18FCF] p-4 pt-6 font-bold'>
         Vision Statement
         </div>
-        <div className='text-4xl text-[#2C2C34] p-4 font-semibold animate-pulse-slow'>
+        <div className='text-2xl md:text-4xl text-[#2C2C34] p-4 font-semibold animate-pulse-slow'>
           To empower co-presidents, directors and subcom to fulfil their personal
           visions in order to contribute to the greater vision of CSESoc.
         </div>
@@ -159,11 +159,11 @@ function App() {
         Action Plan
       </div>
       <div className='text-2xl text-[#494850] p-4'>
-      <div className='flex flex-row'>
+      <div className='flex md:flex-row flex-col'>
         <div className='m-10 basis-1/3'>
           <img src={pondering} className='rounded-3xl hover:scale-105'/>
         </div>
-        <div className='grid grid-cols-2 gap-4'>
+        <div className='md:grid md:grid-cols-2 md:gap-4 flex flex-col justify-center '>
           <Card className="mt-6 w-96 rounded-3xl hover:scale-105">
           <CardBody>
             <Typography variant="h5" color="blue-gray" className="mb-2">
@@ -247,13 +247,13 @@ function App() {
         <div className='text-2xl mb-6 mt-4'>
           I'll explain some of my experiences, and the valuable things they have taught me.
         </div>
-      <div className='flex flex-row p-6'>
+      <div className='flex md:flex-row flex-col p-6 justify-center items-center'>
         <div className='pr-6'>
           <div  className='text-xl p-2 mt-6 mb-2 text-[#978897] font-semibold'>
             COOPSoc Exec team
           </div>
 
-          <div className='flex flex-row bg-[#EFEFFB] rounded-2xl p-3 hover:scale-105'>
+          <div className='flex flex-col md:flex-row bg-[#EFEFFB] rounded-2xl p-3 hover:scale-105'>
             <div  className='text-xl p-2'>
               Working in the COOPSoc exec team enabled me to see firsthand the systems 
               that enable the efficient management of teams, agendas and record-keeping.
@@ -275,7 +275,7 @@ function App() {
             CSESoc Dev Content
           </div>
 
-          <div className='flex flex-row bg-[#EFEFFB] rounded-2xl p-3 hover:scale-105'>
+          <div className='flex flex-col md:flex-row bg-[#EFEFFB] rounded-2xl p-3 hover:scale-105'>
             <div  className='text-xl p-2'>
               Creating content for CSESoc allowed me to refine my personal values as a member 
               of a university society. This is because, in order to create engaging content, 
@@ -296,7 +296,7 @@ function App() {
           <div  className='text-xl p-2 mt-6 mb-2 text-[#978897] font-semibold'>
             PISoc IT director
           </div>
-          <div className='flex flex-row bg-[#EFEFFB] rounded-2xl p-3 hover:scale-105'>
+          <div className='flex flex-col md:flex-row bg-[#EFEFFB] rounded-2xl p-3 hover:scale-105'>
             <div  className='text-xl p-2'>
               Managing a team enabled me to experience firsthand the administrative difficulties 
               faced in leading a team, and to experiment with processes to resolve this.
@@ -313,7 +313,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className='basis-4/5 ml-10'>
+        <div className='basis-4/5 ml-10 mr-10'>
           {/* <img src={sorting} className='ml-10 mr-10 mt-10 rounded-2xl hover:scale-105' /> */}
 
           <TikTok url="https://www.tiktok.com/@csesoc/video/7244136668813462785?lang=en" className='ml-10 mr-10 mt-10 rounded-2xl hover:scale-105'/>
@@ -330,7 +330,7 @@ function App() {
         <div className='text-4xl text-[#B18FCF] p-4 font-bold'>
           Aspects of CSESoc that I value and hope to preserve
         </div>
-        <div className="grid grid-cols-3">
+        <div className="md:grid md:grid-cols-3 flex flex-col justify-center">
           <Card className="mt-6 w-96 rounded-3xl hover:scale-105">
             <CardBody>
               <Typography variant="h5" color="blue-gray" className="mb-2">
@@ -385,11 +385,10 @@ function App() {
           <img src={sisyphus} className='rounded-3xl h-64 hover:scale-105'/>
         </div>
         
-
         <div className='text-4xl text-[#B18FCF] p-4 font-bold'>
           Aspects of CSESoc that I seek to improve upon
         </div>
-        <div className="grid grid-cols-3">
+        <div className="md:grid md:grid-cols-3 flex flex-col justify-center">
           <Card className="mt-6 w-96 rounded-3xl hover:scale-105">
             <CardBody>
               <Typography variant="h5" color="blue-gray" className="mb-2">
