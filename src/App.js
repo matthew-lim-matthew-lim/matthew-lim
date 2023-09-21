@@ -251,7 +251,7 @@ function App() {
       ))}
       </ScrollCarousel>
 
-    <div className='p-20' >
+    <div className='p-10 md:p-20' >
     <div className='flex flex-row'>
 
     </div>
