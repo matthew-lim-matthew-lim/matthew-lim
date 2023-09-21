@@ -506,7 +506,7 @@ function App() {
         <div className='text-lg md:text-xl p-2 pt-4 hover:animate-bounce'>
           If you see me on campus dap me up :D
         </div>
-        <img src={mePic} className='h-96 rounded-3xl m-3'/>
+        <img src={mePic} className='h-72 md:h-96 rounded-3xl m-3'/>
     </div>
       <img onClick={start} style={{zIndex:3, "position":"absolute", top:20, right:20}} className='w-9 border-2 border-black p-1 rounded-md' src={humans} />
       {/* <button onClick={start} style={{zIndex:3, "position":"absolute", top:10, right:10}}>Play</button> */}
