@@ -126,7 +126,7 @@ function App() {
         </div>
       </header>
 
-    <div className='bg-white p-20' >
+    <div className='bg-white p-10 md:p-20' >
     <div className='text-xl md:text-3xl text-[#B18FCF] p-4 font-bold'>
             CSESoc has massively enriched my university experience...
           </div>
@@ -161,7 +161,7 @@ function App() {
 
       <br></br>
 
-    <div className='bg-[#EAEAEC] p-20' >
+    <div className='bg-[#EAEAEC] p-10 md:p-20' >
     <div className='bg-white rounded-3xl mr-5 ml-5 mb-5 md:mr-10 md:ml-10 md:mb-10 pb-3'>
         <div className='text-2xl md:text-4xl text-[#B18FCF] p-4 pt-6 font-bold'>
         Vision Statement
@@ -267,7 +267,7 @@ function App() {
           I'll explain some of my experiences, and the valuable things they have taught me.
         </div>
       <div className='flex md:flex-row flex-col p-2 md:p-6 justify-center items-center'>
-        <div className='pr-6'>
+        <div className='md:pr-6'>
           <div  className='text-xl p-2 mt-6 mb-2 text-[#978897] font-semibold'>
             COOPSoc Exec team
           </div>
@@ -476,7 +476,7 @@ function App() {
         </div>
     </div>
 
-    <div className='bg-[#EAEAEC] p-20' >
+    <div className='bg-[#EAEAEC] p-10 md:p-20' >
         <div className='text-xl md:text-4xl text-[#978897] p-4 font-bold'>
           What are my motivations?
         </div>
