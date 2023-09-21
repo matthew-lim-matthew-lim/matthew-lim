@@ -14,6 +14,16 @@ import mePic from "./mePic.jpg"
 import { faSquareCaretDown } from '@fortawesome/free-solid-svg-icons'; */
 import ScrollCarousel from 'scroll-carousel-react';
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faYoutube,
+  faFacebook,
+  faTwitter,
+  faInstagram,
+  faLinkedin,
+  faSpotify
+} from "@fortawesome/free-brands-svg-icons";
+
 import humans from './humans.png';
 
 import aphexTwin from './AphexTwinXtal.mp3';
@@ -518,6 +528,18 @@ function App() {
           If you see me on campus say hi :)
         </div>
         <img src={mePic} className='h-72 md:h-96 rounded-3xl m-3 hover:scale-105'/>
+        <div className='flex flex-row justify-center'>
+        <a href='https://www.instagram.com/mattlim268/' target='_blank' rel='noopener noreferrer' className='m-2'>
+          <FontAwesomeIcon icon={faInstagram} size="3x" />
+        </a> 
+        <a href='https://www.linkedin.com/in/matthewlimmatthewlim/' target='_blank' rel='noopener noreferrer' className='m-2'>
+          <FontAwesomeIcon icon={faLinkedin} size="3x" />
+        </a>
+        <a href='https://open.spotify.com/user/mattlsixhundred?si=b497dd67836148fe' target='_blank' rel='noopener noreferrer' className='m-2'>
+          <FontAwesomeIcon icon={faSpotify} size="3x" />
+        </a>
+        </div>
+        
     </div>
       <img onClick={start} style={{zIndex:3, "position":"absolute", top:20, right:20}} className='w-9 md:w-12 border-2 border-black p-1 rounded-md hover:scale-105 animate-pulse' src={humans} />
       {/* <button onClick={start} style={{zIndex:3, "position":"absolute", top:10, right:10}}>Play</button> */}
